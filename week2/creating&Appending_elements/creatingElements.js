@@ -18,16 +18,16 @@ myheading.append(newP)
 
 //ol with three li:
 var newLi = document.createElement("li")
-newLi.textContent = "This is an awesome list item"
-var myOrderLi = document.getElementById("order-list")
+newLi.textContent = "Tacos"
+var myOrderLi = document.getElementById("favorite-foods")
 myOrderLi.append(newLi)
 
 var newLi = document.createElement("li")
-newLi.textContent = "This is a super cool list item"
-var myOrderLi = document.getElementById("order-list")
+newLi.textContent = "Shrimp Alfredo"
+var myOrderLi = document.getElementById("favorite-foods")
 myOrderLi.append(newLi)
 
 var newLi = document.createElement("li")
-newLi.textContent = "This is my favorite list item"
-var myOrderLi = document.getElementById("order-list")
+newLi.textContent = "Pan-Seared Salmon"
+var myOrderLi = document.getElementById("favorite-foods")
 myOrderLi.append(newLi)
