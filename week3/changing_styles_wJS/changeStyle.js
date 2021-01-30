@@ -10,11 +10,14 @@ for (var i = 0; i < 5; i++){
     h2.style.color = "cornflowerblue";
 }
 
+
 //className
-var className = document.querySelector("#heading").className += " new-class"
-console.log(className)
+var className = document.querySelector('body').className += "border";
+console.log(className);
 
 //classList
-document.querySelector("#header").classList.add("class-new")
-console.log(document.querySelector("#header").className)
-document.querySelector("#header").classList.add("class-new")
+document.querySelector('body').classList.add("border"[0]);
+console.log(document.querySelector(".border").className);
+document.querySelector(".border").classList.add(".border");
+
+
